@@ -1,8 +1,14 @@
+import './css/index.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import { Provider } from './context/book';
 
 const el = document.querySelector('#root');
 const root = ReactDOM.createRoot(el);
 
-root.render(<App />);
+root.render(
+  <Provider>
+    <App />
+  </Provider>
+);

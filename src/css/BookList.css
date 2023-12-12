@@ -1,0 +1,8 @@
+.book-list-container {
+    display:flex;
+    align-items:stretch;
+}
+
+.book-show {
+    align-self:inherit;
+}
